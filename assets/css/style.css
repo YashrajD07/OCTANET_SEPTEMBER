@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+:root {
+    --body-color: #021834;
+    --sub-color: #9f9f9fbf;
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-color);
+    transition: all ease-in-out 200ms;
+    cursor: default;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+/* nav bar start*/
+.nav_bar {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4.2rem;
+    background-color: transparent;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.nav_bar > a {
+    color: var(--sub-color);
+    text-decoration: none;
+    margin-right: 80px;
+    margin-top: 40px;
+    transition: all ease-in-out 200ms;
+}
+.nav_bar > a:hover {
+    transform: scale(1.1);
+    color: #cccccc;
+}
+.bx-search {
+    font-size: 25px;
+}
+.container {
+    position: relative;
+}
+.img_container {
+    background-image: url("https://www.sony-asia.com/image/10ba8c2580c43fb049249fe9fc300fb2?fmt=png-alpha&wid=660&hei=660");
+    position: relative;
+    height: 120vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    top: -230px;
+    left: -80px;
+}
+
+.brand_name {
+    font-family: "Anton", sans-serif;
+    margin-top: -730px;
+    margin-left: 580px;
+    font-size: 350px;
+    color: #2e3f6d39;
+    
+}
+
+.product_details {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    top: 14rem;
+    right: 15.3rem;
+    color: var(--sub-color);
+}
+.product_details > h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.product_details > p {
+    font-size: 22px;
+    margin-left: 20px;
+}
+button {
+    height: 40px;
+    width: 8rem;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    background-color: var(--sub-color);
+    border: none;
+    font-size: 18px;
+    transition: all ease 600ms;
+    font-weight: 600;
+    margin-top: 8px;
+}
+button:hover {
+    background-color: transparent;
+    border: 1px solid var(--sub-color);
+    color: var(--sub-color);
+}
